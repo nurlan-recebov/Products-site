@@ -18,7 +18,7 @@
     <header>
         <div class="header-top">
             <div class="container">
-                <div class="row">
+                <div class="row ml-0">
                     <div class="header-social d-flex mt-3" style="justify-content:flex-end;">
                         <a href="" class="btn btn-singin">Daxil ol</a>
                         <a href="" class="btn btn-singup ms-1 ">Qeydiyyat</a>
@@ -28,40 +28,119 @@
         </div>
         <div class="header-middle">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-3 col-lg-3">
-                        <div class="header-logo">
-                            <div> <img src="/img/images/logo/logo-header.svg" alt="" srcset=""></div>
-                        </div>
-                    </div>
-                    <div class="xs-md-hidden col-md-6 col-lg-6 d-flex align-items-center">
-                        <form id="header-search-form" class="w-100" method="get">
-                            <div class="search-box">
-                                <input type="text" class="form-control" name="search" id="header-search" placeholder="Axtar">
-                                <span class="search-icon" onclick="$('#header-search-form').submit()" style="cursor: pointer"><i class="fa fa-search" aria-hidden="true"></i></span>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="xs-md-hidden col-md-3 col-lg-3 d-flex justify-content-end align-items-center">
-                        <div class="d-flex icon-items">
-                            <div class="icon-item"><a href=""><i class="fa-solid fa-cart-shopping"></i></a> <span>3</span>
-                            </div>
-                            <div class="icon-item"> <a href=""><i class="fa-solid fa-heart"></i></a> <span>4</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row ml-0 ">
+                    <div class=" d-flex align-items-center justify-content-center p-5
+                    ">
+                        <div class="col-12 col-md-3 col-lg-3">
 
+                            <div class="header-logo">
+                                <div> <img src="/img/images/logo/logo-header.svg" alt="" srcset=""></div>
+                            </div>
+                        </div>
+
+                        <div class="xs-md-hidden col-md-6 col-lg-6 d-flex align-items-center">
+                            <form id="header-search-form" class="w-100 d-sm-none d-md-block" method="get">
+                                <div class="search-box">
+                                    <input type="text" class="form-control" name="search" id="header-search" placeholder="Axtar">
+                                    <span class="search-icon" onclick="$('#header-search-form').submit()" style="cursor: pointer"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="xs-md-hidden col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
+                            <div class="d-flex icon-items justify-content-center align-items-center">
+                                <div class="icon-item"><a href=""><i class="fa-solid fa-cart-shopping"></i></a> <span>3</span>
+                                </div>
+                                <div class="icon-item"> <a href=""><i class="fa-solid fa-heart"></i></a> <span>4</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="header-bottom">
-            <div class="container">
-                <div class="row"></div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row ml-0">
+                        <div class="col-md-4 xs-md-hidden " style="background-color:#198754">
+                            <div class="category d-flex ">
+                                <div><i class="fa-solid fa-sliders"></i></div>
+                                <span class="ms-3"> Kateqoriyalar</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-center">
+                            <nav class="navbar navbar-expand-lg bg-none">
+                                <div class="container-fluid">
+
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-current="page" href="#">Haqqımızda</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Yeni</a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link">Endirimler</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link">En cox satilanlar</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link">Sertler</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link">Elaqe</a>
+                                            </li>
+                                        </ul>
+                                        <form class="d-flex  d-sm-block d-md-none" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                            <button class="btn btn-outline-success mt-2" type="submit">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
     </header>
+    <div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slider/1649834951banner-yeni-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/1631705963banner6-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/1642066135banner3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/1651820508banner14.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
 </body>
+
+</html>
 
 </html>
